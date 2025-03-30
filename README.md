@@ -1,1 +1,1 @@
-i will pu all files concerning projet
+i will put all files concerning projet
