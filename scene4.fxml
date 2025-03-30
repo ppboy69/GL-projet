@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckMenuItem?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="539.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneControler">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="36.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/soldier%20(1).png" />
+         </image>
+      </ImageView>
+      <Text layoutX="83.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="crack head" />
+      <Button layoutX="66.0" layoutY="245.0" mnemonicParsing="false" text="show product" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="213.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/dathrs.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="232.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="horsey dating sim" />
+      <Button layoutX="235.0" layoutY="245.0" mnemonicParsing="false" text="show product" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="386.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/minecraft2.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="438.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="minecraft 2" />
+      <Button layoutX="423.0" layoutY="245.0" mnemonicParsing="false" text="show product" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="36.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/pika.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="75.0" layoutY="443.0" strokeType="OUTSIDE" strokeWidth="0.0" text="not pokemon" />
+      <Button layoutX="66.0" layoutY="451.0" mnemonicParsing="false" text="show product" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="213.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/doodoo.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="243.0" layoutY="443.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Call of DOODOO" />
+      <Button layoutX="243.0" layoutY="451.0" mnemonicParsing="false" text="show product" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="386.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/5night.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="409.0" layoutY="443.0" strokeType="OUTSIDE" strokeWidth="0.0" text="four nights at mokhtar" />
+      <Button layoutX="416.0" layoutY="451.0" mnemonicParsing="false" text="show product" />
+      <Button layoutX="28.0" layoutY="493.0" mnemonicParsing="false" onAction="#switchtoscene3" prefHeight="25.0" prefWidth="72.0" text="go back" />
+      <Button layoutX="505.0" layoutY="493.0" mnemonicParsing="false" onAction="#switchtoscene5" text="next page" />
+      <MenuBar prefHeight="25.0" prefWidth="90.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="catagories">
+               <items>
+                  <CheckMenuItem mnemonicParsing="false" text="multiplayer" />
+                  <CheckMenuItem mnemonicParsing="false" text="singleplayer" />
+                  <CheckMenuItem mnemonicParsing="false" text="FPS" />
+                  <CheckMenuItem mnemonicParsing="false" text="competitive" />
+                  <CheckMenuItem mnemonicParsing="false" text="creature collector" />
+                  <CheckMenuItem mnemonicParsing="false" text="simulation" />
+                  <CheckMenuItem mnemonicParsing="false" text="romance" />
+                  <CheckMenuItem mnemonicParsing="false" text="sandbox" />
+                  <CheckMenuItem mnemonicParsing="false" text="horror" />
+                  <CheckMenuItem mnemonicParsing="false" text="survival" />
+               </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <TextField layoutX="90.0" prefHeight="25.0" prefWidth="278.0" />
+      <Button layoutX="368.0" mnemonicParsing="false" onAction="#switchtoscene7" text="search" />
+   </children>
+</AnchorPane>
